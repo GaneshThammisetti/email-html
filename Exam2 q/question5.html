@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Webpage</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    /* Title Styling */
+    h1 {
+      font-size: 2rem; /* Default size for small screens */
+      margin-bottom: 20px;
+    }
+
+    /* Description Styling */
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    /* Medium Screens (600px - 900px) */
+    @media (min-width: 600px) and (max-width: 899px) {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    /* Large Screens (900px and above) */
+    @media (min-width: 900px) {
+      h1 {
+        font-size: 4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Webpage Title</h1>
+  <p>
+    This is a description of the webpage. It adjusts dynamically based on the screen size, ensuring the title remains appropriately sized for the user's device.
+  </p>
+</body>
+</html>
